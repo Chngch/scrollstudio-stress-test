@@ -1,0 +1,2935 @@
+{
+  "schemaVersion": 54,
+  "id": "3bb1a074-479a-46ca-8f31-e400e1d41467",
+  "title": "Untitled visual story",
+  "slug": "untitled-visual-story",
+  "description": "A story created with Scrollstudio.",
+  "createdAt": "2026-08-13T11:27:14.466Z",
+  "updatedAt": "2026-08-16T12:24:50.771Z",
+  "theme": {
+    "background": "#f3efe7",
+    "foreground": "#191816",
+    "accent": "#ed6237",
+    "muted": "#706c65",
+    "headingFont": "Georgia, 'Times New Roman', serif",
+    "bodyFont": "Inter, ui-sans-serif, system-ui, sans-serif"
+  },
+  "assets": [
+    {
+      "id": "8efc7ed2-13e6-4889-87c4-be6ad3fde99d",
+      "kind": "image",
+      "originalName": "Maptest (2).jpg",
+      "fileName": "642279c3bb57afee.jpg",
+      "mimeType": "image/jpeg",
+      "alt": "",
+      "caption": "",
+      "width": 7000,
+      "height": 3938,
+      "renditions": [
+        {
+          "fileName": "642279c3bb57afee-1280-0fd4c5b383.jpg",
+          "mimeType": "image/jpeg",
+          "width": 1280,
+          "height": 720,
+          "longEdge": 1280
+        },
+        {
+          "fileName": "642279c3bb57afee-1600-f9138d001e.jpg",
+          "mimeType": "image/jpeg",
+          "width": 1600,
+          "height": 900,
+          "longEdge": 1600
+        },
+        {
+          "fileName": "642279c3bb57afee-2048-987ea3ee01.jpg",
+          "mimeType": "image/jpeg",
+          "width": 2048,
+          "height": 1152,
+          "longEdge": 2048
+        },
+        {
+          "fileName": "642279c3bb57afee-4096-d23f46dea3.jpg",
+          "mimeType": "image/jpeg",
+          "width": 4096,
+          "height": 2304,
+          "longEdge": 4096
+        }
+      ]
+    },
+    {
+      "id": "c29db6c2-832b-43a3-944d-728d2ef59a69",
+      "kind": "video",
+      "originalName": "Mockup of road model_2.mp4",
+      "fileName": "8b05627dbde08fef-scrub-5d72c52dce.mp4",
+      "mimeType": "video/mp4",
+      "alt": "",
+      "caption": "",
+      "durationSeconds": 7.5
+    },
+    {
+      "id": "0091b76c-734a-46d9-8fd1-972f4d74454b",
+      "kind": "image",
+      "originalName": "25D4E24D.png",
+      "fileName": "d6a70163e2922d82.png",
+      "mimeType": "image/png",
+      "alt": "",
+      "caption": "",
+      "width": 434,
+      "height": 1667,
+      "renditions": [
+        {
+          "fileName": "d6a70163e2922d82-1280-e782e1b093.png",
+          "mimeType": "image/png",
+          "width": 333,
+          "height": 1280,
+          "longEdge": 1280
+        },
+        {
+          "fileName": "d6a70163e2922d82-1600-99ee42e57f.png",
+          "mimeType": "image/png",
+          "width": 417,
+          "height": 1600,
+          "longEdge": 1600
+        }
+      ]
+    },
+    {
+      "id": "c98ecbde-c983-46f4-96d0-fe0c4fba7813",
+      "kind": "image",
+      "originalName": "old-01.svg",
+      "fileName": "76b325bf6deeb346.svg",
+      "mimeType": "image/svg+xml",
+      "alt": "",
+      "caption": "",
+      "svgLayers": [
+        {
+          "id": "Layer_3",
+          "name": "Layer 3"
+        },
+        {
+          "id": "Layer_2",
+          "name": "Layer 2"
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "0ed9fbc5-5af0-40d2-8ec0-860c8e47d272",
+      "type": "pan-zoom",
+      "fit": "cover",
+      "transitionTiming": "automatic",
+      "transitionDurationMs": 900,
+      "transitionHoldDistanceVh": 100,
+      "transitionMotionDistanceVh": 100,
+      "visualGroups": [
+        {
+          "id": "0960f884-55e0-4bd6-8ac8-9a50ce662c1c",
+          "visualFrame": "full-bleed",
+          "entryTransition": {
+            "type": "fade",
+            "durationMs": 900
+          },
+          "frameRate": 30,
+          "svgLayerPivots": {},
+          "steps": [
+            {
+              "id": "e0f799e1-ae6a-4035-9173-7f2409a61eac",
+              "cardGapVh": 100,
+              "camera": {
+                "xPercent": 50,
+                "yPercent": 50,
+                "zoom": 1
+              },
+              "mobileCamera": {
+                "xPercent": 50,
+                "yPercent": 50,
+                "zoom": 1
+              },
+              "desktopTimeSeconds": 0,
+              "mobileTimeSeconds": 0,
+              "transition": {
+                "type": "pan-zoom",
+                "timing": "automatic",
+                "durationMs": 900,
+                "triggerDistanceVh": 0,
+                "holdDistanceVh": 100,
+                "motionDistanceVh": 100
+              },
+              "svgLayerStates": {},
+              "annotations": [],
+              "cards": [
+                {
+                  "id": "4fae772b-9f04-4831-a861-020c2a4ba8c4",
+                  "style": {
+                    "backgroundColor": "#ffffff",
+                    "backgroundOpacity": 0.92,
+                    "borderColor": "#000000",
+                    "borderOpacity": 0,
+                    "borderWidth": 0
+                  },
+                  "blocks": [
+                    {
+                      "id": "babf2461-3979-40cd-b4a8-e658f8dce646",
+                      "type": "text",
+                      "textBox": {
+                        "content": {
+                          "type": "doc",
+                          "content": [
+                            {
+                              "type": "paragraph",
+                              "attrs": {
+                                "lineHeight": null,
+                                "letterSpacingEm": null
+                              },
+                              "content": [
+                                {
+                                  "type": "text",
+                                  "marks": [
+                                    {
+                                      "type": "bold"
+                                    }
+                                  ],
+                                  "text": "TEST 1: Singapore map"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        "style": {
+                          "blockType": "p",
+                          "alignment": "center",
+                          "fontFamily": "theme-heading",
+                          "fontSize": 48,
+                          "backgroundColor": "#ffffff",
+                          "backgroundOpacity": 0,
+                          "borderColor": "#000000",
+                          "borderOpacity": 0,
+                          "borderWidth": 0
+                        }
+                      }
+                    }
+                  ],
+                  "desktopPlacement": {
+                    "xPercent": 49.551,
+                    "widthPx": 380
+                  },
+                  "mobilePlacement": {
+                    "xPercent": 50,
+                    "widthPx": 340
+                  }
+                },
+                {
+                  "id": "ee45d189-420d-4bc3-bd21-5c764e9dd1b3",
+                  "style": {
+                    "backgroundColor": "#ffffff",
+                    "backgroundOpacity": 0.92,
+                    "borderColor": "#000000",
+                    "borderOpacity": 0,
+                    "borderWidth": 0
+                  },
+                  "blocks": [
+                    {
+                      "id": "84deb309-c755-4428-b8c7-18574d5db284",
+                      "type": "text",
+                      "textBox": {
+                        "content": {
+                          "type": "doc",
+                          "content": [
+                            {
+                              "type": "paragraph",
+                              "attrs": {
+                                "lineHeight": null,
+                                "letterSpacingEm": null
+                              },
+                              "content": [
+                                {
+                                  "type": "text",
+                                  "text": "This is a test"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        "style": {
+                          "blockType": "p",
+                          "alignment": "center",
+                          "fontFamily": "theme-body",
+                          "fontSize": 20,
+                          "backgroundColor": "#ffffff",
+                          "backgroundOpacity": 0,
+                          "borderColor": "#000000",
+                          "borderOpacity": 0,
+                          "borderWidth": 0
+                        }
+                      }
+                    }
+                  ],
+                  "desktopPlacement": {
+                    "xPercent": 49.551,
+                    "widthPx": 380
+                  },
+                  "mobilePlacement": {
+                    "xPercent": 50,
+                    "widthPx": 340
+                  }
+                }
+              ]
+            },
+            {
+              "id": "6d13c6ab-e4d7-4d86-99c1-90f58a9a0670",
+              "cardGapVh": 100,
+              "camera": {
+                "kind": "camera-2d",
+                "xPercent": 51.2,
+                "yPercent": 55.7,
+                "zoom": 5
+              },
+              "mobileCamera": {
+                "kind": "camera-2d",
+                "xPercent": 52.5,
+                "yPercent": 69.3,
+                "zoom": 3.07
+              },
+              "desktopTimeSeconds": 0,
+              "mobileTimeSeconds": 0,
+              "transition": {
+                "type": "pan-zoom",
+                "timing": "automatic",
+                "durationMs": 900,
+                "triggerDistanceVh": 0,
+                "holdDistanceVh": 100,
+                "motionDistanceVh": 100
+              },
+              "svgLayerStates": {},
+              "annotations": [
+                {
+                  "id": "cbc2d339-3469-420a-9abe-ef7586968c1b",
+                  "type": "highlight",
+                  "direction": "right",
+                  "size": 32,
+                  "device": "desktop",
+                  "coordinateSpace": "image",
+                  "camera": {
+                    "xPercent": 51.2,
+                    "yPercent": 55.7,
+                    "zoom": 5
+                  },
+                  "label": "",
+                  "outlineColor": "#ff0000",
+                  "fillColor": "#ffffff",
+                  "fillMode": "outside",
+                  "fillOpacity": 0.6,
+                  "strokeWidth": 4,
+                  "points": [
+                    {
+                      "xPercent": 48.25,
+                      "yPercent": 52.27
+                    },
+                    {
+                      "xPercent": 49.31,
+                      "yPercent": 51.35
+                    },
+                    {
+                      "xPercent": 49.96,
+                      "yPercent": 51.73
+                    },
+                    {
+                      "xPercent": 50.37,
+                      "yPercent": 51.5
+                    },
+                    {
+                      "xPercent": 50.56,
+                      "yPercent": 51.77
+                    },
+                    {
+                      "xPercent": 50.93,
+                      "yPercent": 51.56
+                    },
+                    {
+                      "xPercent": 51.1,
+                      "yPercent": 51.8
+                    },
+                    {
+                      "xPercent": 51.88,
+                      "yPercent": 51.88,
+                      "inXPercent": -0.25,
+                      "inYPercent": -0.36
+                    },
+                    {
+                      "xPercent": 52.65,
+                      "yPercent": 51.47
+                    },
+                    {
+                      "xPercent": 53.07,
+                      "yPercent": 51.73
+                    },
+                    {
+                      "xPercent": 53.84,
+                      "yPercent": 51.11
+                    },
+                    {
+                      "xPercent": 54.64,
+                      "yPercent": 51.49,
+                      "inXPercent": -0.19,
+                      "inYPercent": -0.54
+                    },
+                    {
+                      "xPercent": 54.83,
+                      "yPercent": 52.01
+                    },
+                    {
+                      "xPercent": 55.31,
+                      "yPercent": 52.03
+                    },
+                    {
+                      "xPercent": 55.85,
+                      "yPercent": 52.85
+                    },
+                    {
+                      "xPercent": 56.24,
+                      "yPercent": 54.43,
+                      "inXPercent": -0.07,
+                      "inYPercent": -0.6,
+                      "outXPercent": 0.07,
+                      "outYPercent": 0.6
+                    },
+                    {
+                      "xPercent": 55.43,
+                      "yPercent": 55.31,
+                      "inXPercent": 0.52,
+                      "inYPercent": -0.15,
+                      "outXPercent": -0.52,
+                      "outYPercent": 0.15
+                    },
+                    {
+                      "xPercent": 53.46,
+                      "yPercent": 56.53
+                    },
+                    {
+                      "xPercent": 52.36,
+                      "yPercent": 55.76,
+                      "inXPercent": 0.42,
+                      "inYPercent": 0.15,
+                      "outXPercent": -0.42,
+                      "outYPercent": -0.15
+                    },
+                    {
+                      "xPercent": 51.4,
+                      "yPercent": 56.12
+                    },
+                    {
+                      "xPercent": 50.2,
+                      "yPercent": 55.93,
+                      "inXPercent": 0.5,
+                      "inYPercent": -0.07,
+                      "outXPercent": -0.5,
+                      "outYPercent": 0.07
+                    },
+                    {
+                      "xPercent": 49.06,
+                      "yPercent": 56.19
+                    },
+                    {
+                      "xPercent": 48.52,
+                      "yPercent": 54.78
+                    },
+                    {
+                      "xPercent": 48.52,
+                      "yPercent": 53.42
+                    }
+                  ]
+                },
+                {
+                  "id": "2fb489f2-7372-4854-b5ab-9b7bf827fcd1",
+                  "type": "highlight",
+                  "direction": "right",
+                  "size": 32,
+                  "device": "mobile",
+                  "coordinateSpace": "image",
+                  "camera": {
+                    "xPercent": 52.5,
+                    "yPercent": 69.3,
+                    "zoom": 3.07
+                  },
+                  "label": "",
+                  "outlineColor": "#ff0000",
+                  "fillColor": "#ffffff",
+                  "fillMode": "outside",
+                  "fillOpacity": 0.6,
+                  "strokeWidth": 4,
+                  "points": [
+                    {
+                      "xPercent": 51.95,
+                      "yPercent": 51.9
+                    },
+                    {
+                      "xPercent": 52.67,
+                      "yPercent": 51.57
+                    },
+                    {
+                      "xPercent": 53.12,
+                      "yPercent": 51.69
+                    },
+                    {
+                      "xPercent": 53.87,
+                      "yPercent": 51.11
+                    },
+                    {
+                      "xPercent": 54.75,
+                      "yPercent": 51.78
+                    },
+                    {
+                      "xPercent": 55.5,
+                      "yPercent": 52.05
+                    },
+                    {
+                      "xPercent": 56.07,
+                      "yPercent": 53.67
+                    },
+                    {
+                      "xPercent": 55.55,
+                      "yPercent": 55.26,
+                      "inXPercent": 0.88,
+                      "inYPercent": -0.27,
+                      "outXPercent": -0.88,
+                      "outYPercent": 0.27
+                    },
+                    {
+                      "xPercent": 53.44,
+                      "yPercent": 56.66
+                    },
+                    {
+                      "xPercent": 52.12,
+                      "yPercent": 55.84,
+                      "inXPercent": 0.6,
+                      "inYPercent": 0.18,
+                      "outXPercent": -0.6,
+                      "outYPercent": -0.18
+                    },
+                    {
+                      "xPercent": 50.64,
+                      "yPercent": 56.05
+                    },
+                    {
+                      "xPercent": 48.96,
+                      "yPercent": 56.3
+                    },
+                    {
+                      "xPercent": 48.43,
+                      "yPercent": 54.77
+                    },
+                    {
+                      "xPercent": 48.48,
+                      "yPercent": 53.55
+                    },
+                    {
+                      "xPercent": 48.29,
+                      "yPercent": 52.33
+                    },
+                    {
+                      "xPercent": 49.27,
+                      "yPercent": 51.41
+                    },
+                    {
+                      "xPercent": 50.01,
+                      "yPercent": 51.6
+                    },
+                    {
+                      "xPercent": 50.63,
+                      "yPercent": 51.66
+                    },
+                    {
+                      "xPercent": 51.5,
+                      "yPercent": 51.66
+                    }
+                  ]
+                }
+              ],
+              "cards": [
+                {
+                  "id": "8618c85a-2b03-43f8-b5eb-4cf6d1fe5552",
+                  "style": {
+                    "backgroundColor": "#ffffff",
+                    "backgroundOpacity": 0.92,
+                    "borderColor": "#000000",
+                    "borderOpacity": 0,
+                    "borderWidth": 0
+                  },
+                  "blocks": [
+                    {
+                      "id": "517d2106-62ad-47b7-acd4-4651d4ee0096",
+                      "type": "text",
+                      "textBox": {
+                        "content": {
+                          "type": "doc",
+                          "content": [
+                            {
+                              "type": "paragraph",
+                              "attrs": {
+                                "lineHeight": null,
+                                "letterSpacingEm": null
+                              },
+                              "content": [
+                                {
+                                  "type": "text",
+                                  "text": "This is Toa Payoh"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        "style": {
+                          "blockType": "p",
+                          "alignment": "left",
+                          "fontFamily": "theme-body",
+                          "fontSize": 20,
+                          "backgroundColor": "#ffffff",
+                          "backgroundOpacity": 0,
+                          "borderColor": "#000000",
+                          "borderOpacity": 0,
+                          "borderWidth": 0
+                        }
+                      }
+                    }
+                  ],
+                  "desktopPlacement": {
+                    "xPercent": 29.033,
+                    "widthPx": 220
+                  },
+                  "mobilePlacement": {
+                    "xPercent": 50,
+                    "widthPx": 340
+                  }
+                }
+              ]
+            },
+            {
+              "id": "bff8cfbc-dae7-460f-b239-5fd8bd34ffab",
+              "cardGapVh": 100,
+              "camera": {
+                "kind": "camera-2d",
+                "xPercent": 42.9,
+                "yPercent": 71.8,
+                "zoom": 4.41
+              },
+              "mobileCamera": {
+                "kind": "camera-2d",
+                "xPercent": 40.2,
+                "yPercent": 79.4,
+                "zoom": 2.39
+              },
+              "desktopTimeSeconds": 0,
+              "mobileTimeSeconds": 0,
+              "transition": {
+                "type": "pan-zoom",
+                "timing": "automatic",
+                "durationMs": 900,
+                "triggerDistanceVh": 0,
+                "holdDistanceVh": 100,
+                "motionDistanceVh": 100
+              },
+              "svgLayerStates": {},
+              "annotations": [
+                {
+                  "id": "aa24cbb9-85d1-441e-883f-f6d6c98dd141",
+                  "type": "highlight",
+                  "direction": "right",
+                  "size": 32,
+                  "device": "mobile",
+                  "coordinateSpace": "image",
+                  "camera": {
+                    "xPercent": 40.2,
+                    "yPercent": 79.4,
+                    "zoom": 2.39
+                  },
+                  "label": "",
+                  "outlineColor": "#ff0000",
+                  "fillColor": "#ffffff",
+                  "fillMode": "outside",
+                  "fillOpacity": 0.6,
+                  "strokeWidth": 4,
+                  "points": [
+                    {
+                      "xPercent": 43.38,
+                      "yPercent": 71.73
+                    },
+                    {
+                      "xPercent": 43.82,
+                      "yPercent": 70.04
+                    },
+                    {
+                      "xPercent": 43.98,
+                      "yPercent": 68.67
+                    },
+                    {
+                      "xPercent": 43.67,
+                      "yPercent": 67.69
+                    },
+                    {
+                      "xPercent": 44.37,
+                      "yPercent": 66.67
+                    },
+                    {
+                      "xPercent": 44.79,
+                      "yPercent": 66
+                    },
+                    {
+                      "xPercent": 45.59,
+                      "yPercent": 65.73
+                    },
+                    {
+                      "xPercent": 45.94,
+                      "yPercent": 63.53
+                    },
+                    {
+                      "xPercent": 45.12,
+                      "yPercent": 63.37
+                    },
+                    {
+                      "xPercent": 44.6,
+                      "yPercent": 62.59
+                    },
+                    {
+                      "xPercent": 43.93,
+                      "yPercent": 61.02
+                    },
+                    {
+                      "xPercent": 43.4,
+                      "yPercent": 60.24
+                    },
+                    {
+                      "xPercent": 42.35,
+                      "yPercent": 59.41
+                    },
+                    {
+                      "xPercent": 41.6,
+                      "yPercent": 58.94
+                    },
+                    {
+                      "xPercent": 40.98,
+                      "yPercent": 59.22
+                    },
+                    {
+                      "xPercent": 40.54,
+                      "yPercent": 59.53
+                    },
+                    {
+                      "xPercent": 39.17,
+                      "yPercent": 58
+                    },
+                    {
+                      "xPercent": 39.15,
+                      "yPercent": 59.26
+                    },
+                    {
+                      "xPercent": 39.15,
+                      "yPercent": 60.86
+                    },
+                    {
+                      "xPercent": 39.06,
+                      "yPercent": 62.12
+                    },
+                    {
+                      "xPercent": 38.88,
+                      "yPercent": 62.75
+                    },
+                    {
+                      "xPercent": 38.82,
+                      "yPercent": 64.24
+                    },
+                    {
+                      "xPercent": 38.15,
+                      "yPercent": 62.28
+                    },
+                    {
+                      "xPercent": 37.38,
+                      "yPercent": 63.22
+                    },
+                    {
+                      "xPercent": 37.89,
+                      "yPercent": 64.59
+                    },
+                    {
+                      "xPercent": 37.71,
+                      "yPercent": 65.49
+                    },
+                    {
+                      "xPercent": 39.13,
+                      "yPercent": 67.37
+                    },
+                    {
+                      "xPercent": 38.9,
+                      "yPercent": 68
+                    },
+                    {
+                      "xPercent": 37.49,
+                      "yPercent": 66.35
+                    },
+                    {
+                      "xPercent": 36.61,
+                      "yPercent": 66.59
+                    },
+                    {
+                      "xPercent": 36.3,
+                      "yPercent": 68.24
+                    },
+                    {
+                      "xPercent": 39.26,
+                      "yPercent": 71.37
+                    },
+                    {
+                      "xPercent": 40.18,
+                      "yPercent": 69.26
+                    },
+                    {
+                      "xPercent": 41.26,
+                      "yPercent": 69.96
+                    },
+                    {
+                      "xPercent": 40.21,
+                      "yPercent": 73.61
+                    },
+                    {
+                      "xPercent": 41.35,
+                      "yPercent": 74.39
+                    },
+                    {
+                      "xPercent": 42.68,
+                      "yPercent": 71.29
+                    }
+                  ]
+                },
+                {
+                  "id": "9a8eed01-802a-4cf4-9bea-8df7ab330f85",
+                  "type": "highlight",
+                  "direction": "right",
+                  "size": 32,
+                  "device": "desktop",
+                  "coordinateSpace": "image",
+                  "camera": {
+                    "xPercent": 42.9,
+                    "yPercent": 71.8,
+                    "zoom": 4.41
+                  },
+                  "label": "",
+                  "outlineColor": "#ff0000",
+                  "fillColor": "#ffffff",
+                  "fillMode": "outside",
+                  "fillOpacity": 0.6,
+                  "strokeWidth": 4,
+                  "points": [
+                    {
+                      "xPercent": 44.92,
+                      "yPercent": 63.63
+                    },
+                    {
+                      "xPercent": 45.89,
+                      "yPercent": 63.8
+                    },
+                    {
+                      "xPercent": 45.78,
+                      "yPercent": 64.75
+                    },
+                    {
+                      "xPercent": 45.41,
+                      "yPercent": 65.67
+                    },
+                    {
+                      "xPercent": 44.61,
+                      "yPercent": 65.65
+                    },
+                    {
+                      "xPercent": 44.23,
+                      "yPercent": 66.18
+                    },
+                    {
+                      "xPercent": 43.59,
+                      "yPercent": 67.18
+                    },
+                    {
+                      "xPercent": 43.53,
+                      "yPercent": 67.56
+                    },
+                    {
+                      "xPercent": 43.82,
+                      "yPercent": 68.49
+                    },
+                    {
+                      "xPercent": 43.75,
+                      "yPercent": 70.13
+                    },
+                    {
+                      "xPercent": 43.13,
+                      "yPercent": 71.77
+                    },
+                    {
+                      "xPercent": 42.55,
+                      "yPercent": 71.26
+                    },
+                    {
+                      "xPercent": 41.44,
+                      "yPercent": 74.38
+                    },
+                    {
+                      "xPercent": 40.34,
+                      "yPercent": 73.61
+                    },
+                    {
+                      "xPercent": 40.26,
+                      "yPercent": 72.89
+                    },
+                    {
+                      "xPercent": 41.25,
+                      "yPercent": 69.9
+                    },
+                    {
+                      "xPercent": 40.15,
+                      "yPercent": 68.88
+                    },
+                    {
+                      "xPercent": 39.26,
+                      "yPercent": 71.34
+                    },
+                    {
+                      "xPercent": 36.29,
+                      "yPercent": 68.24
+                    },
+                    {
+                      "xPercent": 36.66,
+                      "yPercent": 66.67
+                    },
+                    {
+                      "xPercent": 37.4,
+                      "yPercent": 66.35
+                    },
+                    {
+                      "xPercent": 38.91,
+                      "yPercent": 67.96
+                    },
+                    {
+                      "xPercent": 39.24,
+                      "yPercent": 67.28
+                    },
+                    {
+                      "xPercent": 37.76,
+                      "yPercent": 65.56
+                    },
+                    {
+                      "xPercent": 37.97,
+                      "yPercent": 64.67
+                    },
+                    {
+                      "xPercent": 37.35,
+                      "yPercent": 63.27
+                    },
+                    {
+                      "xPercent": 38.21,
+                      "yPercent": 62.5
+                    },
+                    {
+                      "xPercent": 38.43,
+                      "yPercent": 63.37
+                    },
+                    {
+                      "xPercent": 38.71,
+                      "yPercent": 64.58
+                    },
+                    {
+                      "xPercent": 38.86,
+                      "yPercent": 64.31
+                    },
+                    {
+                      "xPercent": 38.86,
+                      "yPercent": 62.88
+                    },
+                    {
+                      "xPercent": 39.05,
+                      "yPercent": 62.29
+                    },
+                    {
+                      "xPercent": 39.06,
+                      "yPercent": 61.29
+                    },
+                    {
+                      "xPercent": 39.25,
+                      "yPercent": 60.25
+                    },
+                    {
+                      "xPercent": 39.12,
+                      "yPercent": 57.95
+                    },
+                    {
+                      "xPercent": 40.27,
+                      "yPercent": 59.38
+                    },
+                    {
+                      "xPercent": 40.7,
+                      "yPercent": 59.72
+                    },
+                    {
+                      "xPercent": 41.11,
+                      "yPercent": 60.01
+                    },
+                    {
+                      "xPercent": 41.05,
+                      "yPercent": 59.31
+                    },
+                    {
+                      "xPercent": 41.48,
+                      "yPercent": 58.89
+                    },
+                    {
+                      "xPercent": 42.1,
+                      "yPercent": 59.82
+                    },
+                    {
+                      "xPercent": 42.36,
+                      "yPercent": 59.5
+                    },
+                    {
+                      "xPercent": 42.98,
+                      "yPercent": 60.16
+                    },
+                    {
+                      "xPercent": 43.01,
+                      "yPercent": 60.59
+                    },
+                    {
+                      "xPercent": 43.25,
+                      "yPercent": 60.35
+                    },
+                    {
+                      "xPercent": 43.93,
+                      "yPercent": 61.18
+                    },
+                    {
+                      "xPercent": 44.11,
+                      "yPercent": 62.54
+                    },
+                    {
+                      "xPercent": 44.31,
+                      "yPercent": 62.84
+                    },
+                    {
+                      "xPercent": 44.74,
+                      "yPercent": 62.97
+                    }
+                  ]
+                }
+              ],
+              "cards": [
+                {
+                  "id": "99f7fa0c-bdc8-4444-b183-51cd27e11599",
+                  "style": {
+                    "backgroundColor": "#ffffff",
+                    "backgroundOpacity": 0.92,
+                    "borderColor": "#000000",
+                    "borderOpacity": 0,
+                    "borderWidth": 0
+                  },
+                  "blocks": [
+                    {
+                      "id": "3e12d029-3c44-46de-8748-21cb08e750d4",
+                      "type": "text",
+                      "textBox": {
+                        "content": {
+                          "type": "doc",
+                          "content": [
+                            {
+                              "type": "paragraph",
+                              "attrs": {
+                                "lineHeight": null,
+                                "letterSpacingEm": null
+                              },
+                              "content": [
+                                {
+                                  "type": "text",
+                                  "text": "This is Queenstown"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        "style": {
+                          "blockType": "p",
+                          "alignment": "left",
+                          "fontFamily": "theme-body",
+                          "fontSize": 20,
+                          "backgroundColor": "#ffffff",
+                          "backgroundOpacity": 0,
+                          "borderColor": "#000000",
+                          "borderOpacity": 0,
+                          "borderWidth": 0
+                        }
+                      }
+                    }
+                  ],
+                  "desktopPlacement": {
+                    "xPercent": 66.519,
+                    "widthPx": 220
+                  },
+                  "mobilePlacement": {
+                    "xPercent": 50,
+                    "widthPx": 340
+                  }
+                }
+              ]
+            },
+            {
+              "id": "e08ac5f3-3b36-41e1-ac29-f5652033b7db",
+              "cardGapVh": 100,
+              "camera": {
+                "kind": "camera-2d",
+                "xPercent": 67.6,
+                "yPercent": 59.6,
+                "zoom": 4.41
+              },
+              "mobileCamera": {
+                "kind": "camera-2d",
+                "xPercent": 63.3,
+                "yPercent": 77.6,
+                "zoom": 2.39
+              },
+              "desktopTimeSeconds": 0,
+              "mobileTimeSeconds": 0,
+              "transition": {
+                "type": "pan-zoom",
+                "timing": "automatic",
+                "durationMs": 900,
+                "triggerDistanceVh": 0,
+                "holdDistanceVh": 100,
+                "motionDistanceVh": 100
+              },
+              "svgLayerStates": {},
+              "annotations": [
+                {
+                  "id": "9f828817-212f-49f8-a6a7-1505af682ed4",
+                  "type": "highlight",
+                  "direction": "right",
+                  "size": 32,
+                  "device": "mobile",
+                  "coordinateSpace": "image",
+                  "camera": {
+                    "xPercent": 63.3,
+                    "yPercent": 77.6,
+                    "zoom": 2.39
+                  },
+                  "label": "",
+                  "outlineColor": "#ff0000",
+                  "fillColor": "#ffffff",
+                  "fillMode": "outside",
+                  "fillOpacity": 0.6,
+                  "strokeWidth": 4,
+                  "points": [
+                    {
+                      "xPercent": 56.89,
+                      "yPercent": 53.66
+                    },
+                    {
+                      "xPercent": 57.38,
+                      "yPercent": 52.56
+                    },
+                    {
+                      "xPercent": 57.66,
+                      "yPercent": 53.03
+                    },
+                    {
+                      "xPercent": 58.48,
+                      "yPercent": 52.95
+                    },
+                    {
+                      "xPercent": 59.34,
+                      "yPercent": 51.5
+                    },
+                    {
+                      "xPercent": 59.76,
+                      "yPercent": 51.93
+                    },
+                    {
+                      "xPercent": 60.13,
+                      "yPercent": 51.23
+                    },
+                    {
+                      "xPercent": 61.39,
+                      "yPercent": 50.21
+                    },
+                    {
+                      "xPercent": 63.24,
+                      "yPercent": 53.66
+                    },
+                    {
+                      "xPercent": 64.81,
+                      "yPercent": 54.33
+                    },
+                    {
+                      "xPercent": 65.43,
+                      "yPercent": 56.09
+                    },
+                    {
+                      "xPercent": 66.42,
+                      "yPercent": 57.7
+                    },
+                    {
+                      "xPercent": 66.9,
+                      "yPercent": 59.62
+                    },
+                    {
+                      "xPercent": 65.71,
+                      "yPercent": 60.84
+                    },
+                    {
+                      "xPercent": 65.07,
+                      "yPercent": 60.88
+                    },
+                    {
+                      "xPercent": 63.66,
+                      "yPercent": 61.62
+                    },
+                    {
+                      "xPercent": 62.4,
+                      "yPercent": 62.44
+                    },
+                    {
+                      "xPercent": 61.96,
+                      "yPercent": 62.64
+                    },
+                    {
+                      "xPercent": 61.57,
+                      "yPercent": 62.91
+                    },
+                    {
+                      "xPercent": 61.12,
+                      "yPercent": 62.88
+                    },
+                    {
+                      "xPercent": 60.29,
+                      "yPercent": 63.23
+                    },
+                    {
+                      "xPercent": 59.98,
+                      "yPercent": 61.62
+                    },
+                    {
+                      "xPercent": 58.79,
+                      "yPercent": 62.01
+                    },
+                    {
+                      "xPercent": 58.04,
+                      "yPercent": 58.41
+                    },
+                    {
+                      "xPercent": 58.13,
+                      "yPercent": 56.44
+                    }
+                  ]
+                },
+                {
+                  "id": "b760b7ee-5be0-449c-8f88-5ba763e4fcef",
+                  "type": "highlight",
+                  "direction": "right",
+                  "size": 32,
+                  "device": "desktop",
+                  "coordinateSpace": "image",
+                  "camera": {
+                    "xPercent": 67.6,
+                    "yPercent": 59.6,
+                    "zoom": 4.41
+                  },
+                  "label": "",
+                  "outlineColor": "#ff0000",
+                  "fillColor": "#ffffff",
+                  "fillMode": "outside",
+                  "fillOpacity": 0.6,
+                  "strokeWidth": 4,
+                  "points": [
+                    {
+                      "xPercent": 56.83,
+                      "yPercent": 53.94
+                    },
+                    {
+                      "xPercent": 57.31,
+                      "yPercent": 52.6
+                    },
+                    {
+                      "xPercent": 57.7,
+                      "yPercent": 53.09
+                    },
+                    {
+                      "xPercent": 58.48,
+                      "yPercent": 52.94
+                    },
+                    {
+                      "xPercent": 59.37,
+                      "yPercent": 51.56
+                    },
+                    {
+                      "xPercent": 59.78,
+                      "yPercent": 52
+                    },
+                    {
+                      "xPercent": 60.13,
+                      "yPercent": 51.41
+                    },
+                    {
+                      "xPercent": 61.32,
+                      "yPercent": 50.56
+                    },
+                    {
+                      "xPercent": 61.49,
+                      "yPercent": 50.98
+                    },
+                    {
+                      "xPercent": 63.25,
+                      "yPercent": 53.68
+                    },
+                    {
+                      "xPercent": 64.74,
+                      "yPercent": 54.28
+                    },
+                    {
+                      "xPercent": 65.47,
+                      "yPercent": 56.17
+                    },
+                    {
+                      "xPercent": 66.42,
+                      "yPercent": 57.74
+                    },
+                    {
+                      "xPercent": 66.82,
+                      "yPercent": 59.46
+                    },
+                    {
+                      "xPercent": 66.44,
+                      "yPercent": 60.1
+                    },
+                    {
+                      "xPercent": 65.74,
+                      "yPercent": 60.8
+                    },
+                    {
+                      "xPercent": 65.51,
+                      "yPercent": 60.63
+                    },
+                    {
+                      "xPercent": 65.12,
+                      "yPercent": 60.82
+                    },
+                    {
+                      "xPercent": 63.55,
+                      "yPercent": 61.55
+                    },
+                    {
+                      "xPercent": 62.74,
+                      "yPercent": 62.23
+                    },
+                    {
+                      "xPercent": 62.41,
+                      "yPercent": 62.33
+                    },
+                    {
+                      "xPercent": 62.11,
+                      "yPercent": 62.18
+                    },
+                    {
+                      "xPercent": 61.46,
+                      "yPercent": 62.82
+                    },
+                    {
+                      "xPercent": 61.21,
+                      "yPercent": 62.61
+                    },
+                    {
+                      "xPercent": 60.47,
+                      "yPercent": 63.16
+                    },
+                    {
+                      "xPercent": 60.18,
+                      "yPercent": 63.03
+                    },
+                    {
+                      "xPercent": 60.03,
+                      "yPercent": 61.67
+                    },
+                    {
+                      "xPercent": 58.82,
+                      "yPercent": 61.97
+                    },
+                    {
+                      "xPercent": 58.29,
+                      "yPercent": 59.61
+                    },
+                    {
+                      "xPercent": 58.01,
+                      "yPercent": 58.34
+                    },
+                    {
+                      "xPercent": 58.17,
+                      "yPercent": 56.34
+                    }
+                  ]
+                }
+              ],
+              "cards": [
+                {
+                  "id": "32cc53ab-5515-4053-91f6-91c77a6bf859",
+                  "style": {
+                    "backgroundColor": "#ffffff",
+                    "backgroundOpacity": 0.92,
+                    "borderColor": "#000000",
+                    "borderOpacity": 0,
+                    "borderWidth": 0
+                  },
+                  "blocks": [
+                    {
+                      "id": "3a70d1ea-a4e5-4703-b879-262893eefe55",
+                      "type": "text",
+                      "textBox": {
+                        "content": {
+                          "type": "doc",
+                          "content": [
+                            {
+                              "type": "paragraph",
+                              "attrs": {
+                                "lineHeight": null,
+                                "letterSpacingEm": null
+                              },
+                              "content": [
+                                {
+                                  "type": "text",
+                                  "text": "This is Bedok"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        "style": {
+                          "blockType": "p",
+                          "alignment": "left",
+                          "fontFamily": "theme-body",
+                          "fontSize": 20,
+                          "backgroundColor": "#ffffff",
+                          "backgroundOpacity": 0,
+                          "borderColor": "#000000",
+                          "borderOpacity": 0,
+                          "borderWidth": 0
+                        }
+                      }
+                    }
+                  ],
+                  "desktopPlacement": {
+                    "xPercent": 66.519,
+                    "widthPx": 220
+                  },
+                  "mobilePlacement": {
+                    "xPercent": 50,
+                    "widthPx": 340
+                  }
+                }
+              ]
+            }
+          ],
+          "assetId": "8efc7ed2-13e6-4889-87c4-be6ad3fde99d",
+          "mobileAssetId": "8efc7ed2-13e6-4889-87c4-be6ad3fde99d"
+        },
+        {
+          "id": "0150d58f-2904-47f1-9266-3f3a55b9c823",
+          "visualFrame": "full-bleed",
+          "entryTransition": {
+            "type": "fade",
+            "durationMs": 900
+          },
+          "frameRate": 30,
+          "svgLayerPivots": {},
+          "steps": [
+            {
+              "id": "5a5de556-6874-434e-ab48-27a6966a0367",
+              "cardGapVh": 100,
+              "camera": {
+                "xPercent": 50,
+                "yPercent": 50,
+                "zoom": 1
+              },
+              "mobileCamera": {
+                "xPercent": 50,
+                "yPercent": 50,
+                "zoom": 1
+              },
+              "desktopTimeSeconds": 0,
+              "mobileTimeSeconds": 0,
+              "transition": {
+                "type": "pan-zoom",
+                "timing": "automatic",
+                "durationMs": 900,
+                "triggerDistanceVh": 0,
+                "holdDistanceVh": 100,
+                "motionDistanceVh": 100
+              },
+              "svgLayerStates": {},
+              "annotations": [],
+              "cards": [
+                {
+                  "id": "e79501f2-bfee-4c5d-b7d5-a68f85c0021a",
+                  "style": {
+                    "backgroundColor": "#ffffff",
+                    "backgroundOpacity": 0.92,
+                    "borderColor": "#000000",
+                    "borderOpacity": 0,
+                    "borderWidth": 0
+                  },
+                  "blocks": [
+                    {
+                      "id": "6106fcc7-a304-403d-86be-a626fdcda3ab",
+                      "type": "text",
+                      "textBox": {
+                        "content": {
+                          "type": "doc",
+                          "content": [
+                            {
+                              "type": "paragraph",
+                              "attrs": {
+                                "lineHeight": null,
+                                "letterSpacingEm": null
+                              },
+                              "content": [
+                                {
+                                  "type": "text",
+                                  "marks": [
+                                    {
+                                      "type": "bold"
+                                    }
+                                  ],
+                                  "text": "Test 2: Junction"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        "style": {
+                          "blockType": "p",
+                          "alignment": "center",
+                          "fontFamily": "theme-heading",
+                          "fontSize": 30,
+                          "backgroundColor": "#ffffff",
+                          "backgroundOpacity": 0,
+                          "borderColor": "#000000",
+                          "borderOpacity": 0,
+                          "borderWidth": 0
+                        }
+                      }
+                    }
+                  ],
+                  "desktopPlacement": {
+                    "xPercent": 66.519,
+                    "widthPx": 220
+                  },
+                  "mobilePlacement": {
+                    "xPercent": 50,
+                    "widthPx": 340
+                  }
+                }
+              ]
+            },
+            {
+              "id": "03353fb8-e4ae-490c-958b-29ff4f18a6f7",
+              "cardGapVh": 100,
+              "camera": {
+                "xPercent": 50,
+                "yPercent": 50,
+                "zoom": 1
+              },
+              "mobileCamera": {
+                "xPercent": 50,
+                "yPercent": 50,
+                "zoom": 1
+              },
+              "desktopTimeSeconds": 1.5163,
+              "mobileTimeSeconds": 1.5131,
+              "transition": {
+                "type": "pan-zoom",
+                "timing": "scroll-linked",
+                "durationMs": 900,
+                "triggerDistanceVh": 0,
+                "holdDistanceVh": 100,
+                "motionDistanceVh": 100
+              },
+              "svgLayerStates": {},
+              "annotations": [],
+              "cards": [
+                {
+                  "id": "05c3eb32-f9d8-43ee-9525-cdba1227fa58",
+                  "style": {
+                    "backgroundColor": "#ffffff",
+                    "backgroundOpacity": 0.92,
+                    "borderColor": "#000000",
+                    "borderOpacity": 0,
+                    "borderWidth": 0
+                  },
+                  "blocks": [
+                    {
+                      "id": "a99dab6c-5b81-4e1c-a7f2-b73b95aec27a",
+                      "type": "text",
+                      "textBox": {
+                        "content": {
+                          "type": "doc",
+                          "content": [
+                            {
+                              "type": "paragraph",
+                              "attrs": {
+                                "lineHeight": null,
+                                "letterSpacingEm": null
+                              },
+                              "content": [
+                                {
+                                  "type": "text",
+                                  "text": "This is a four-level junction"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        "style": {
+                          "blockType": "p",
+                          "alignment": "left",
+                          "fontFamily": "theme-body",
+                          "fontSize": 20,
+                          "backgroundColor": "#ffffff",
+                          "backgroundOpacity": 0,
+                          "borderColor": "#000000",
+                          "borderOpacity": 0,
+                          "borderWidth": 0
+                        }
+                      }
+                    }
+                  ],
+                  "desktopPlacement": {
+                    "xPercent": 66.519,
+                    "widthPx": 220
+                  },
+                  "mobilePlacement": {
+                    "xPercent": 50,
+                    "widthPx": 340
+                  }
+                }
+              ]
+            },
+            {
+              "id": "cc850db0-9d2e-42e8-b1a6-993e46cdc464",
+              "cardGapVh": 100,
+              "camera": {
+                "xPercent": 50,
+                "yPercent": 50,
+                "zoom": 1
+              },
+              "mobileCamera": {
+                "xPercent": 50,
+                "yPercent": 50,
+                "zoom": 1
+              },
+              "desktopTimeSeconds": 3.0265,
+              "mobileTimeSeconds": 3.0297,
+              "transition": {
+                "type": "pan-zoom",
+                "timing": "scroll-linked",
+                "durationMs": 900,
+                "triggerDistanceVh": 0,
+                "holdDistanceVh": 100,
+                "motionDistanceVh": 100
+              },
+              "svgLayerStates": {},
+              "annotations": [
+                {
+                  "id": "4cda349c-ebaa-40c3-8681-71d412bcc663",
+                  "type": "arrow",
+                  "direction": "down",
+                  "size": 32,
+                  "device": "desktop",
+                  "coordinateSpace": "image",
+                  "camera": {
+                    "xPercent": 50,
+                    "yPercent": 50,
+                    "zoom": 1
+                  },
+                  "label": "",
+                  "outlineColor": "#ff0000",
+                  "fillColor": "#ffffff",
+                  "fillMode": "outside",
+                  "fillOpacity": 0.6,
+                  "strokeWidth": 4,
+                  "points": [
+                    {
+                      "xPercent": 60.83,
+                      "yPercent": 48.96
+                    }
+                  ]
+                },
+                {
+                  "id": "5974355d-55de-4d31-8397-6dd48437ee43",
+                  "type": "arrow",
+                  "direction": "down",
+                  "size": 32,
+                  "device": "mobile",
+                  "coordinateSpace": "image",
+                  "camera": {
+                    "xPercent": 50,
+                    "yPercent": 50,
+                    "zoom": 1
+                  },
+                  "label": "",
+                  "outlineColor": "#ff0000",
+                  "fillColor": "#ffffff",
+                  "fillMode": "outside",
+                  "fillOpacity": 0.6,
+                  "strokeWidth": 4,
+                  "points": [
+                    {
+                      "xPercent": 56.41,
+                      "yPercent": 44.47
+                    }
+                  ]
+                }
+              ],
+              "cards": [
+                {
+                  "id": "a71f923c-9c55-433d-9f8e-1d739bd7d477",
+                  "style": {
+                    "backgroundColor": "#ffffff",
+                    "backgroundOpacity": 0.92,
+                    "borderColor": "#000000",
+                    "borderOpacity": 0,
+                    "borderWidth": 0
+                  },
+                  "blocks": [
+                    {
+                      "id": "c42ac2ce-e6fd-4b15-842f-b98e2cac9010",
+                      "type": "text",
+                      "textBox": {
+                        "content": {
+                          "type": "doc",
+                          "content": [
+                            {
+                              "type": "paragraph",
+                              "attrs": {
+                                "lineHeight": null,
+                                "letterSpacingEm": null
+                              },
+                              "content": [
+                                {
+                                  "type": "text",
+                                  "text": "Level 1: Tunnel"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        "style": {
+                          "blockType": "p",
+                          "alignment": "left",
+                          "fontFamily": "theme-body",
+                          "fontSize": 20,
+                          "backgroundColor": "#ffffff",
+                          "backgroundOpacity": 0,
+                          "borderColor": "#000000",
+                          "borderOpacity": 0,
+                          "borderWidth": 0
+                        }
+                      }
+                    }
+                  ],
+                  "desktopPlacement": {
+                    "xPercent": 66.519,
+                    "widthPx": 220
+                  },
+                  "mobilePlacement": {
+                    "xPercent": 50,
+                    "widthPx": 340
+                  }
+                }
+              ]
+            },
+            {
+              "id": "b7f1ad57-5fcf-40d6-8893-074dd90b666e",
+              "cardGapVh": 100,
+              "camera": {
+                "xPercent": 50,
+                "yPercent": 50,
+                "zoom": 1
+              },
+              "mobileCamera": {
+                "xPercent": 50,
+                "yPercent": 50,
+                "zoom": 1
+              },
+              "desktopTimeSeconds": 4.4793,
+              "mobileTimeSeconds": 4.4891,
+              "transition": {
+                "type": "pan-zoom",
+                "timing": "scroll-linked",
+                "durationMs": 900,
+                "triggerDistanceVh": 0,
+                "holdDistanceVh": 100,
+                "motionDistanceVh": 100
+              },
+              "svgLayerStates": {},
+              "annotations": [
+                {
+                  "id": "f3b44059-b91f-44c9-85be-297613c78857",
+                  "type": "arrow",
+                  "direction": "down",
+                  "size": 32,
+                  "device": "desktop",
+                  "coordinateSpace": "image",
+                  "camera": {
+                    "xPercent": 50,
+                    "yPercent": 50,
+                    "zoom": 1
+                  },
+                  "label": "",
+                  "outlineColor": "#ff0000",
+                  "fillColor": "#ffffff",
+                  "fillMode": "outside",
+                  "fillOpacity": 0.6,
+                  "strokeWidth": 4,
+                  "points": [
+                    {
+                      "xPercent": 66.59,
+                      "yPercent": 48.93
+                    }
+                  ]
+                },
+                {
+                  "id": "a409672d-fa76-4e82-8117-1c6f822a61cf",
+                  "type": "arrow",
+                  "direction": "down",
+                  "size": 32,
+                  "device": "mobile",
+                  "coordinateSpace": "image",
+                  "camera": {
+                    "xPercent": 50,
+                    "yPercent": 50,
+                    "zoom": 1
+                  },
+                  "label": "",
+                  "outlineColor": "#ff0000",
+                  "fillColor": "#ffffff",
+                  "fillMode": "outside",
+                  "fillOpacity": 0.6,
+                  "strokeWidth": 4,
+                  "points": [
+                    {
+                      "xPercent": 66.91,
+                      "yPercent": 71.65
+                    }
+                  ]
+                }
+              ],
+              "cards": [
+                {
+                  "id": "ef9d5acb-fdf4-487c-a56a-4baaf3b2911e",
+                  "style": {
+                    "backgroundColor": "#ffffff",
+                    "backgroundOpacity": 0.92,
+                    "borderColor": "#000000",
+                    "borderOpacity": 0,
+                    "borderWidth": 0
+                  },
+                  "blocks": [
+                    {
+                      "id": "4cbdd224-ff61-45fe-91c2-ee83cf6105b5",
+                      "type": "text",
+                      "textBox": {
+                        "content": {
+                          "type": "doc",
+                          "content": [
+                            {
+                              "type": "paragraph",
+                              "attrs": {
+                                "lineHeight": null,
+                                "letterSpacingEm": null
+                              },
+                              "content": [
+                                {
+                                  "type": "text",
+                                  "text": "Level 2: Ground floor"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        "style": {
+                          "blockType": "p",
+                          "alignment": "left",
+                          "fontFamily": "theme-body",
+                          "fontSize": 20,
+                          "backgroundColor": "#ffffff",
+                          "backgroundOpacity": 0,
+                          "borderColor": "#000000",
+                          "borderOpacity": 0,
+                          "borderWidth": 0
+                        }
+                      }
+                    }
+                  ],
+                  "desktopPlacement": {
+                    "xPercent": 66.519,
+                    "widthPx": 220
+                  },
+                  "mobilePlacement": {
+                    "xPercent": 50,
+                    "widthPx": 340
+                  }
+                }
+              ]
+            },
+            {
+              "id": "08155978-ff7a-4c8c-b9c8-8d9d38a3ca4c",
+              "cardGapVh": 100,
+              "camera": {
+                "xPercent": 50,
+                "yPercent": 50,
+                "zoom": 1
+              },
+              "mobileCamera": {
+                "xPercent": 50,
+                "yPercent": 50,
+                "zoom": 1
+              },
+              "desktopTimeSeconds": 5.9931,
+              "mobileTimeSeconds": 5.9931,
+              "transition": {
+                "type": "pan-zoom",
+                "timing": "scroll-linked",
+                "durationMs": 900,
+                "triggerDistanceVh": 0,
+                "holdDistanceVh": 100,
+                "motionDistanceVh": 100
+              },
+              "svgLayerStates": {},
+              "annotations": [
+                {
+                  "id": "5a2c5992-ce8d-4e69-ac38-9bce81a3e186",
+                  "type": "arrow",
+                  "direction": "right",
+                  "size": 32,
+                  "device": "desktop",
+                  "coordinateSpace": "image",
+                  "camera": {
+                    "xPercent": 50,
+                    "yPercent": 50,
+                    "zoom": 1
+                  },
+                  "label": "",
+                  "outlineColor": "#ff0000",
+                  "fillColor": "#ffffff",
+                  "fillMode": "outside",
+                  "fillOpacity": 0.6,
+                  "strokeWidth": 4,
+                  "points": [
+                    {
+                      "xPercent": 69.25,
+                      "yPercent": 42.18
+                    }
+                  ]
+                },
+                {
+                  "id": "65c0eb62-53b2-4173-98ef-bfa98006e81d",
+                  "type": "arrow",
+                  "direction": "down",
+                  "size": 32,
+                  "device": "mobile",
+                  "coordinateSpace": "image",
+                  "camera": {
+                    "xPercent": 50,
+                    "yPercent": 50,
+                    "zoom": 1
+                  },
+                  "label": "",
+                  "outlineColor": "#ff0000",
+                  "fillColor": "#ffffff",
+                  "fillMode": "outside",
+                  "fillOpacity": 0.6,
+                  "strokeWidth": 4,
+                  "points": [
+                    {
+                      "xPercent": 53.75,
+                      "yPercent": 23.38
+                    }
+                  ]
+                }
+              ],
+              "cards": [
+                {
+                  "id": "5697c72c-fe0d-4190-b95a-27c455f33469",
+                  "style": {
+                    "backgroundColor": "#ffffff",
+                    "backgroundOpacity": 0.92,
+                    "borderColor": "#000000",
+                    "borderOpacity": 0,
+                    "borderWidth": 0
+                  },
+                  "blocks": [
+                    {
+                      "id": "61fe3004-eb8f-449c-af56-a75f507bb2ca",
+                      "type": "text",
+                      "textBox": {
+                        "content": {
+                          "type": "doc",
+                          "content": [
+                            {
+                              "type": "paragraph",
+                              "attrs": {
+                                "lineHeight": null,
+                                "letterSpacingEm": null
+                              },
+                              "content": [
+                                {
+                                  "type": "text",
+                                  "text": "Level 3: Flyover"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        "style": {
+                          "blockType": "p",
+                          "alignment": "left",
+                          "fontFamily": "theme-body",
+                          "fontSize": 20,
+                          "backgroundColor": "#ffffff",
+                          "backgroundOpacity": 0,
+                          "borderColor": "#000000",
+                          "borderOpacity": 0,
+                          "borderWidth": 0
+                        }
+                      }
+                    }
+                  ],
+                  "desktopPlacement": {
+                    "xPercent": 66.519,
+                    "widthPx": 220
+                  },
+                  "mobilePlacement": {
+                    "xPercent": 50,
+                    "widthPx": 340
+                  }
+                }
+              ]
+            }
+          ],
+          "assetId": "c29db6c2-832b-43a3-944d-728d2ef59a69"
+        }
+      ]
+    },
+    {
+      "id": "575a458f-eaec-42e6-96be-8193853fcb01",
+      "type": "scroll-sequence",
+      "lengthVh": 400,
+      "fit": "cover",
+      "visualFrame": "wide",
+      "clips": [
+        {
+          "id": "fb842ec2-342a-4dd1-89bb-824ec0451b1a",
+          "type": "card",
+          "startVh": 200,
+          "endVh": 280,
+          "behavior": "stationary",
+          "fadeVh": 15,
+          "desktopPlacement": {
+            "xPercent": 41.349,
+            "yPercent": 47.541,
+            "widthPx": 280
+          },
+          "mobilePlacement": {
+            "xPercent": 50,
+            "yPercent": 47.541,
+            "widthPx": 220
+          },
+          "card": {
+            "id": "44423619-d747-4f58-ba60-8b21cf56316c",
+            "style": {
+              "backgroundColor": "#ffffff",
+              "backgroundOpacity": 0.92,
+              "borderColor": "#000000",
+              "borderOpacity": 0,
+              "borderWidth": 0
+            },
+            "blocks": [
+              {
+                "id": "56243b2e-1075-4dad-91f9-d098ac9fce1b",
+                "type": "text",
+                "textBox": {
+                  "content": {
+                    "type": "doc",
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "attrs": {
+                          "lineHeight": null,
+                          "letterSpacingEm": null
+                        },
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "This is his underpants"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "style": {
+                    "blockType": "p",
+                    "alignment": "left",
+                    "fontFamily": "theme-body",
+                    "fontSize": 20,
+                    "backgroundColor": "#ffffff",
+                    "backgroundOpacity": 0,
+                    "borderColor": "#000000",
+                    "borderOpacity": 0,
+                    "borderWidth": 0
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "9228062a-c970-43fc-8bf3-eedfcedaf156",
+          "type": "card",
+          "startVh": 100,
+          "endVh": 180,
+          "behavior": "stationary",
+          "fadeVh": 15,
+          "desktopPlacement": {
+            "xPercent": 51.441,
+            "yPercent": 47.541,
+            "widthPx": 240
+          },
+          "mobilePlacement": {
+            "xPercent": 66.274,
+            "yPercent": 38.169,
+            "widthPx": 180
+          },
+          "card": {
+            "id": "410d191d-a5f2-49a4-8c3a-7418dd4c2e55",
+            "style": {
+              "backgroundColor": "#ffffff",
+              "backgroundOpacity": 0.92,
+              "borderColor": "#000000",
+              "borderOpacity": 0,
+              "borderWidth": 0
+            },
+            "blocks": [
+              {
+                "id": "0abad7a9-e7e8-45ec-ab57-2999f965ac21",
+                "type": "text",
+                "textBox": {
+                  "content": {
+                    "type": "doc",
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "attrs": {
+                          "lineHeight": null,
+                          "letterSpacingEm": null
+                        },
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "This is his liver"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "style": {
+                    "blockType": "p",
+                    "alignment": "left",
+                    "fontFamily": "theme-body",
+                    "fontSize": 20,
+                    "backgroundColor": "#ffffff",
+                    "backgroundOpacity": 0,
+                    "borderColor": "#000000",
+                    "borderOpacity": 0,
+                    "borderWidth": 0
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "motionClips": [
+        {
+          "id": "27e07782-9673-41d7-abe8-85e2cd786e0d",
+          "type": "visual-motion",
+          "mode": "pan-through",
+          "desktopPanThrough": true,
+          "mobilePanThrough": true,
+          "startVh": 0,
+          "endVh": 400,
+          "desktopFrom": {
+            "xPercent": 0,
+            "yPercent": 0,
+            "scale": 1,
+            "rotation": 0,
+            "opacity": 1
+          },
+          "desktopTo": {
+            "xPercent": 0,
+            "yPercent": 0,
+            "scale": 1,
+            "rotation": 0,
+            "opacity": 1
+          },
+          "mobileFrom": {
+            "xPercent": 0,
+            "yPercent": 0,
+            "scale": 1,
+            "rotation": 0,
+            "opacity": 1
+          },
+          "mobileTo": {
+            "xPercent": 0,
+            "yPercent": 0,
+            "scale": 1,
+            "rotation": 0,
+            "opacity": 1
+          }
+        }
+      ],
+      "visualCues": [],
+      "assetId": "0091b76c-734a-46d9-8fd1-972f4d74454b"
+    },
+    {
+      "id": "cadb06e5-f2bb-409f-ab1c-60e23a954b2d",
+      "type": "pan-zoom",
+      "fit": "cover",
+      "transitionTiming": "automatic",
+      "transitionDurationMs": 900,
+      "transitionHoldDistanceVh": 100,
+      "transitionMotionDistanceVh": 100,
+      "visualGroups": [
+        {
+          "id": "7579cbd5-2218-4992-beda-e8a20187a98a",
+          "visualFrame": "wide",
+          "entryTransition": {
+            "type": "fade",
+            "durationMs": 900
+          },
+          "frameRate": 30,
+          "svgLayerPivots": {},
+          "steps": [
+            {
+              "id": "33cf6442-e970-46af-a218-055f31ed3fc8",
+              "cardGapVh": 100,
+              "camera": {
+                "xPercent": 50,
+                "yPercent": 50,
+                "zoom": 1
+              },
+              "mobileCamera": {
+                "xPercent": 50,
+                "yPercent": 50,
+                "zoom": 1
+              },
+              "desktopTimeSeconds": 0,
+              "mobileTimeSeconds": 0,
+              "transition": {
+                "type": "pan-zoom",
+                "timing": "automatic",
+                "durationMs": 900,
+                "triggerDistanceVh": 0,
+                "holdDistanceVh": 100,
+                "motionDistanceVh": 100
+              },
+              "svgLayerStates": {
+                "Layer_2": {
+                  "visible": true,
+                  "opacity": 1,
+                  "desktopTransform": {
+                    "xPercent": 0,
+                    "yPercent": 27,
+                    "scaleX": 1,
+                    "scaleY": 1,
+                    "rotation": 0
+                  },
+                  "mobileTransform": {
+                    "xPercent": 1,
+                    "yPercent": 2.6,
+                    "scaleX": 1,
+                    "scaleY": 1,
+                    "rotation": 0
+                  }
+                },
+                "Layer_3": {
+                  "visible": true,
+                  "opacity": 1,
+                  "desktopTransform": {
+                    "xPercent": 0,
+                    "yPercent": 27,
+                    "scaleX": 1,
+                    "scaleY": 1,
+                    "rotation": 0
+                  },
+                  "mobileTransform": {
+                    "xPercent": 3,
+                    "yPercent": 2.2,
+                    "scaleX": 1,
+                    "scaleY": 1,
+                    "rotation": 0
+                  }
+                }
+              },
+              "annotations": [],
+              "cards": [
+                {
+                  "id": "0e914c3d-27f3-450f-ab1b-222c2f4a2ecd",
+                  "style": {
+                    "backgroundColor": "#ffffff",
+                    "backgroundOpacity": 0.92,
+                    "borderColor": "#000000",
+                    "borderOpacity": 0,
+                    "borderWidth": 0
+                  },
+                  "blocks": [
+                    {
+                      "id": "75d7640f-8e7f-4107-a751-9ecb96f74589",
+                      "type": "text",
+                      "textBox": {
+                        "content": {
+                          "type": "doc",
+                          "content": [
+                            {
+                              "type": "paragraph",
+                              "attrs": {
+                                "lineHeight": null,
+                                "letterSpacingEm": null
+                              },
+                              "content": [
+                                {
+                                  "type": "text",
+                                  "marks": [
+                                    {
+                                      "type": "bold"
+                                    }
+                                  ],
+                                  "text": "Headline here"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        "style": {
+                          "blockType": "p",
+                          "alignment": "center",
+                          "fontFamily": "theme-heading",
+                          "fontSize": 35,
+                          "backgroundColor": "#ffffff",
+                          "backgroundOpacity": 0,
+                          "borderColor": "#000000",
+                          "borderOpacity": 0,
+                          "borderWidth": 0
+                        }
+                      }
+                    }
+                  ],
+                  "desktopPlacement": {
+                    "xPercent": 52.699,
+                    "widthPx": 520
+                  },
+                  "mobilePlacement": {
+                    "xPercent": 50,
+                    "widthPx": 340
+                  }
+                },
+                {
+                  "id": "e4273f1e-e175-4a3c-a187-43c8dd0dd8fd",
+                  "style": {
+                    "backgroundColor": "#ffffff",
+                    "backgroundOpacity": 0.92,
+                    "borderColor": "#000000",
+                    "borderOpacity": 0,
+                    "borderWidth": 0
+                  },
+                  "blocks": [
+                    {
+                      "id": "464c1114-7445-4f9b-9a5b-319b787f837c",
+                      "type": "text",
+                      "textBox": {
+                        "content": {
+                          "type": "doc",
+                          "content": [
+                            {
+                              "type": "paragraph",
+                              "attrs": {
+                                "lineHeight": null,
+                                "letterSpacingEm": null
+                              },
+                              "content": [
+                                {
+                                  "type": "text",
+                                  "text": "Heehee"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        "style": {
+                          "blockType": "p",
+                          "alignment": "center",
+                          "fontFamily": "theme-body",
+                          "fontSize": 20,
+                          "backgroundColor": "#ffffff",
+                          "backgroundOpacity": 0,
+                          "borderColor": "#000000",
+                          "borderOpacity": 0,
+                          "borderWidth": 0
+                        }
+                      }
+                    }
+                  ],
+                  "desktopPlacement": {
+                    "xPercent": 51.257,
+                    "widthPx": 520
+                  },
+                  "mobilePlacement": {
+                    "xPercent": 50,
+                    "widthPx": 340
+                  }
+                }
+              ]
+            },
+            {
+              "id": "4819eebe-29c0-4e04-be72-79706fbdf30b",
+              "cardGapVh": 100,
+              "camera": {
+                "xPercent": 50,
+                "yPercent": 50,
+                "zoom": 1
+              },
+              "mobileCamera": {
+                "xPercent": 50,
+                "yPercent": 50,
+                "zoom": 1
+              },
+              "desktopTimeSeconds": 0,
+              "mobileTimeSeconds": 0,
+              "transition": {
+                "type": "pan-zoom",
+                "timing": "automatic",
+                "durationMs": 900,
+                "triggerDistanceVh": 0,
+                "holdDistanceVh": 100,
+                "motionDistanceVh": 100
+              },
+              "svgLayerStates": {
+                "Layer_2": {
+                  "visible": true,
+                  "opacity": 1,
+                  "desktopTransform": {
+                    "xPercent": 16.8,
+                    "yPercent": 50.1,
+                    "scaleX": 1.55,
+                    "scaleY": 1.55,
+                    "rotation": 0
+                  },
+                  "mobileTransform": {
+                    "xPercent": 19.5,
+                    "yPercent": 29,
+                    "scaleX": 1.75,
+                    "scaleY": 1.75,
+                    "rotation": 0
+                  }
+                },
+                "Layer_3": {
+                  "visible": true,
+                  "opacity": 0,
+                  "desktopTransform": {
+                    "xPercent": 27,
+                    "yPercent": 27,
+                    "scaleX": 1,
+                    "scaleY": 1,
+                    "rotation": 0
+                  },
+                  "mobileTransform": {
+                    "xPercent": 31,
+                    "yPercent": 0,
+                    "scaleX": 1,
+                    "scaleY": 1,
+                    "rotation": 0
+                  }
+                }
+              },
+              "annotations": [
+                {
+                  "id": "f61edff8-1195-44f2-b76d-40ba1e98b808",
+                  "type": "arrow",
+                  "direction": "left",
+                  "size": 58,
+                  "device": "mobile",
+                  "coordinateSpace": "image",
+                  "camera": {
+                    "xPercent": 50,
+                    "yPercent": 50,
+                    "zoom": 1
+                  },
+                  "label": "",
+                  "outlineColor": "#ff0000",
+                  "fillColor": "#ffffff",
+                  "fillMode": "outside",
+                  "fillOpacity": 0.35,
+                  "strokeWidth": 2,
+                  "points": [
+                    {
+                      "xPercent": 60.41,
+                      "yPercent": 18.79
+                    }
+                  ]
+                },
+                {
+                  "id": "01c5f6ae-4dcd-41b2-9558-d3e8df9f13be",
+                  "type": "arrow",
+                  "direction": "left",
+                  "size": 36,
+                  "device": "desktop",
+                  "coordinateSpace": "image",
+                  "camera": {
+                    "xPercent": 50,
+                    "yPercent": 50,
+                    "zoom": 1
+                  },
+                  "label": "",
+                  "outlineColor": "#ff0000",
+                  "fillColor": "#ffffff",
+                  "fillMode": "outside",
+                  "fillOpacity": 0.35,
+                  "strokeWidth": 6,
+                  "points": [
+                    {
+                      "xPercent": 52.87,
+                      "yPercent": 41.79
+                    }
+                  ]
+                }
+              ],
+              "cards": [
+                {
+                  "id": "037b8ff8-1b7d-4555-b06e-c83011ec6283",
+                  "style": {
+                    "backgroundColor": "#ffffff",
+                    "backgroundOpacity": 0.92,
+                    "borderColor": "#000000",
+                    "borderOpacity": 0,
+                    "borderWidth": 0
+                  },
+                  "blocks": [
+                    {
+                      "id": "bc966e39-bf3e-4baf-9843-85bdd6a9cd6d",
+                      "type": "text",
+                      "textBox": {
+                        "content": {
+                          "type": "doc",
+                          "content": [
+                            {
+                              "type": "paragraph",
+                              "attrs": {
+                                "lineHeight": null,
+                                "letterSpacingEm": null
+                              },
+                              "content": [
+                                {
+                                  "type": "text",
+                                  "text": "Test"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        "style": {
+                          "blockType": "p",
+                          "alignment": "left",
+                          "fontFamily": "theme-body",
+                          "fontSize": 20,
+                          "backgroundColor": "#ffffff",
+                          "backgroundOpacity": 0,
+                          "borderColor": "#000000",
+                          "borderOpacity": 0,
+                          "borderWidth": 0
+                        }
+                      }
+                    }
+                  ],
+                  "desktopPlacement": {
+                    "xPercent": 66.131,
+                    "widthPx": 320
+                  },
+                  "mobilePlacement": {
+                    "xPercent": 31.263,
+                    "widthPx": 197.6
+                  }
+                }
+              ]
+            },
+            {
+              "id": "5e276c9c-921a-4d0c-8d34-fdadf2db3b3a",
+              "cardGapVh": 100,
+              "camera": {
+                "xPercent": 50,
+                "yPercent": 50,
+                "zoom": 1
+              },
+              "mobileCamera": {
+                "xPercent": 50,
+                "yPercent": 50,
+                "zoom": 1
+              },
+              "desktopTimeSeconds": 0,
+              "mobileTimeSeconds": 0,
+              "transition": {
+                "type": "pan-zoom",
+                "timing": "automatic",
+                "durationMs": 900,
+                "triggerDistanceVh": 0,
+                "holdDistanceVh": 100,
+                "motionDistanceVh": 100
+              },
+              "svgLayerStates": {
+                "Layer_2": {
+                  "visible": true,
+                  "opacity": 1,
+                  "desktopTransform": {
+                    "xPercent": 12.2,
+                    "yPercent": -6.5,
+                    "scaleX": 1,
+                    "scaleY": 1,
+                    "rotation": 0
+                  },
+                  "mobileTransform": {
+                    "xPercent": 21.2,
+                    "yPercent": -19.4,
+                    "scaleX": 2.6,
+                    "scaleY": 2.6,
+                    "rotation": 0
+                  }
+                },
+                "Layer_3": {
+                  "visible": true,
+                  "opacity": 0,
+                  "desktopTransform": {
+                    "xPercent": 4.3,
+                    "yPercent": 28.2,
+                    "scaleX": 1,
+                    "scaleY": 1,
+                    "rotation": 0
+                  },
+                  "mobileTransform": {
+                    "xPercent": 31,
+                    "yPercent": 0,
+                    "scaleX": 1,
+                    "scaleY": 1,
+                    "rotation": 0
+                  }
+                }
+              },
+              "annotations": [
+                {
+                  "id": "e8c73b81-db3f-4da1-b630-cb1259690aa0",
+                  "type": "ring",
+                  "direction": "right",
+                  "size": 190,
+                  "device": "mobile",
+                  "coordinateSpace": "image",
+                  "camera": {
+                    "xPercent": 50,
+                    "yPercent": 50,
+                    "zoom": 1
+                  },
+                  "label": "",
+                  "outlineColor": "#ff0000",
+                  "fillColor": "#ffffff",
+                  "fillMode": "outside",
+                  "fillOpacity": 0.35,
+                  "strokeWidth": 6,
+                  "points": [
+                    {
+                      "xPercent": 44.75,
+                      "yPercent": 43.72
+                    }
+                  ]
+                },
+                {
+                  "id": "ccfd7cf2-fab6-4450-bd27-f3ea987fe2c3",
+                  "type": "ring",
+                  "direction": "right",
+                  "size": 122,
+                  "device": "desktop",
+                  "coordinateSpace": "image",
+                  "camera": {
+                    "xPercent": 50,
+                    "yPercent": 50,
+                    "zoom": 1
+                  },
+                  "label": "",
+                  "outlineColor": "#ff0000",
+                  "fillColor": "#ffffff",
+                  "fillMode": "outside",
+                  "fillOpacity": 0.35,
+                  "strokeWidth": 6,
+                  "points": [
+                    {
+                      "xPercent": 44.56,
+                      "yPercent": 49.9
+                    }
+                  ]
+                }
+              ],
+              "cards": [
+                {
+                  "id": "4ac92c59-43ae-495e-b5c6-ee49f667bda7",
+                  "style": {
+                    "backgroundColor": "#ffffff",
+                    "backgroundOpacity": 0.92,
+                    "borderColor": "#000000",
+                    "borderOpacity": 0,
+                    "borderWidth": 0
+                  },
+                  "blocks": [
+                    {
+                      "id": "95b6ef09-5533-461a-8da1-378400da3b32",
+                      "type": "text",
+                      "textBox": {
+                        "content": {
+                          "type": "doc",
+                          "content": [
+                            {
+                              "type": "paragraph",
+                              "attrs": {
+                                "lineHeight": null,
+                                "letterSpacingEm": null
+                              },
+                              "content": [
+                                {
+                                  "type": "text",
+                                  "text": "test again"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        "style": {
+                          "blockType": "p",
+                          "alignment": "left",
+                          "fontFamily": "theme-body",
+                          "fontSize": 20,
+                          "backgroundColor": "#ffffff",
+                          "backgroundOpacity": 0,
+                          "borderColor": "#000000",
+                          "borderOpacity": 0,
+                          "borderWidth": 0
+                        }
+                      }
+                    }
+                  ],
+                  "desktopPlacement": {
+                    "xPercent": 76.224,
+                    "widthPx": 280
+                  },
+                  "mobilePlacement": {
+                    "xPercent": 31.263,
+                    "widthPx": 197.6
+                  }
+                }
+              ]
+            },
+            {
+              "id": "582be98c-678f-4989-8192-fac3ceb61c9d",
+              "cardGapVh": 100,
+              "camera": {
+                "xPercent": 50,
+                "yPercent": 50,
+                "zoom": 1
+              },
+              "mobileCamera": {
+                "xPercent": 50,
+                "yPercent": 50,
+                "zoom": 1
+              },
+              "desktopTimeSeconds": 0,
+              "mobileTimeSeconds": 0,
+              "transition": {
+                "type": "pan-zoom",
+                "timing": "automatic",
+                "durationMs": 900,
+                "triggerDistanceVh": 0,
+                "holdDistanceVh": 100,
+                "motionDistanceVh": 100
+              },
+              "svgLayerStates": {
+                "Layer_2": {
+                  "visible": true,
+                  "opacity": 0,
+                  "desktopTransform": {
+                    "xPercent": 0,
+                    "yPercent": 0,
+                    "scaleX": 1,
+                    "scaleY": 1,
+                    "rotation": 0
+                  },
+                  "mobileTransform": {
+                    "xPercent": -38.2,
+                    "yPercent": 0,
+                    "scaleX": 1,
+                    "scaleY": 1,
+                    "rotation": 0
+                  }
+                },
+                "Layer_3": {
+                  "visible": true,
+                  "opacity": 1,
+                  "desktopTransform": {
+                    "xPercent": -11.1,
+                    "yPercent": 52.7,
+                    "scaleX": 1.6,
+                    "scaleY": 1.6,
+                    "rotation": 0
+                  },
+                  "mobileTransform": {
+                    "xPercent": -14,
+                    "yPercent": 61.6,
+                    "scaleX": 2.5,
+                    "scaleY": 2.5,
+                    "rotation": 0
+                  }
+                }
+              },
+              "annotations": [
+                {
+                  "id": "e9a75947-e38a-496d-af70-007b8ecda964",
+                  "type": "dot",
+                  "direction": "right",
+                  "size": 72,
+                  "device": "mobile",
+                  "coordinateSpace": "image",
+                  "camera": {
+                    "xPercent": 50,
+                    "yPercent": 50,
+                    "zoom": 1
+                  },
+                  "label": "",
+                  "outlineColor": "#ff0000",
+                  "fillColor": "#ffffff",
+                  "fillMode": "outside",
+                  "fillOpacity": 0.35,
+                  "strokeWidth": 6,
+                  "points": [
+                    {
+                      "xPercent": 72.74,
+                      "yPercent": 26.28
+                    }
+                  ]
+                },
+                {
+                  "id": "bee3ccf6-5204-4d7a-915e-5b97212eef43",
+                  "type": "dot",
+                  "direction": "right",
+                  "size": 40,
+                  "device": "desktop",
+                  "coordinateSpace": "image",
+                  "camera": {
+                    "xPercent": 50,
+                    "yPercent": 50,
+                    "zoom": 1
+                  },
+                  "label": "",
+                  "outlineColor": "#ff0000",
+                  "fillColor": "#ffffff",
+                  "fillMode": "outside",
+                  "fillOpacity": 0.35,
+                  "strokeWidth": 6,
+                  "points": [
+                    {
+                      "xPercent": 67.17,
+                      "yPercent": 48.02
+                    }
+                  ]
+                }
+              ],
+              "cards": [
+                {
+                  "id": "8a139a16-baf9-45bd-ab29-ef1026c9be3f",
+                  "style": {
+                    "backgroundColor": "#ffffff",
+                    "backgroundOpacity": 0.92,
+                    "borderColor": "#000000",
+                    "borderOpacity": 0,
+                    "borderWidth": 0
+                  },
+                  "blocks": [
+                    {
+                      "id": "88c0acf0-b23e-4858-9835-e42c0ca0f975",
+                      "type": "text",
+                      "textBox": {
+                        "content": {
+                          "type": "doc",
+                          "content": [
+                            {
+                              "type": "paragraph",
+                              "attrs": {
+                                "lineHeight": null,
+                                "letterSpacingEm": null
+                              },
+                              "content": [
+                                {
+                                  "type": "text",
+                                  "text": "testtt"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "paragraph",
+                              "attrs": {
+                                "lineHeight": null,
+                                "letterSpacingEm": null
+                              },
+                              "content": [
+                                {
+                                  "type": "text",
+                                  "text": "yyy"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        "style": {
+                          "blockType": "p",
+                          "alignment": "left",
+                          "fontFamily": "theme-body",
+                          "fontSize": 20,
+                          "backgroundColor": "#ffffff",
+                          "backgroundOpacity": 0,
+                          "borderColor": "#000000",
+                          "borderOpacity": 0,
+                          "borderWidth": 0
+                        }
+                      }
+                    }
+                  ],
+                  "desktopPlacement": {
+                    "xPercent": 33.411,
+                    "widthPx": 240
+                  },
+                  "mobilePlacement": {
+                    "xPercent": 31.263,
+                    "widthPx": 197.6
+                  }
+                }
+              ]
+            }
+          ],
+          "assetId": "c98ecbde-c983-46f4-96d0-fe0c4fba7813",
+          "mobileAssetId": "c98ecbde-c983-46f4-96d0-fe0c4fba7813"
+        }
+      ]
+    }
+  ]
+}
