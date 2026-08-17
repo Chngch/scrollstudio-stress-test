@@ -626,10 +626,13 @@
   };
 };
   const VISUAL_FRAME_WIDE_MAX_PX = 1280;
-const visualFrameSizes = (value) =>
-  value === "wide"
-    ? `(min-width: ${VISUAL_FRAME_WIDE_MAX_PX}px) ${VISUAL_FRAME_WIDE_MAX_PX}px, 100vw`
-    : "100vw";
+const visualFrameSizes = (value, zoom = 1) => {
+  const scale = Math.max(1, Number(zoom) || 1);
+  const viewportWidth = `${Math.round(scale * 10000) / 100}vw`;
+  return value === "wide"
+    ? `(min-width: ${VISUAL_FRAME_WIDE_MAX_PX}px) ${Math.round(VISUAL_FRAME_WIDE_MAX_PX * scale)}px, ${viewportWidth}`
+    : viewportWidth;
+};
 
   const isPanZoomCheckpointHold = function isPanZoomCheckpointHold(frame) {
   if (!frame) return false;
@@ -879,20 +882,31 @@ const visualFrameSizes = (value) =>
 };
 
   const MOTION_IMAGE_LONG_EDGE = 1600;
-  const MIN_CHECKPOINT_IMAGE_LONG_EDGE = 2048;
   const MAX_IMAGE_DEVICE_PIXEL_RATIO = 2;
   const ADAPTIVE_IMAGE_SETTLE_DELAY_MS = 120;
-  const selectImageRendition = function selectImageRendition(renditions, requiredLongEdge, fallbackSrc) {
+  const selectImageRendition = function selectImageRendition(
+  renditions,
+  requiredSize,
+  fallbackSrc,
+  dimension = "longEdge"
+) {
   const candidates = Array.isArray(renditions)
     ? renditions
         .filter(
-          (candidate) => candidate?.url && Number(candidate.longEdge) > 0
+          (candidate) =>
+            candidate?.url &&
+            Number(candidate?.[dimension] || candidate?.longEdge) > 0
         )
-        .sort((left, right) => Number(left.longEdge) - Number(right.longEdge))
+        .sort(
+          (left, right) =>
+            Number(left?.[dimension] || left?.longEdge) -
+            Number(right?.[dimension] || right?.longEdge)
+        )
     : [];
   return (
     candidates.find(
-      (candidate) => Number(candidate.longEdge) >= requiredLongEdge
+      (candidate) =>
+        Number(candidate?.[dimension] || candidate?.longEdge) >= requiredSize
     )?.url ||
     candidates[candidates.length - 1]?.url ||
     fallbackSrc
@@ -923,6 +937,22 @@ const visualFrameSizes = (value) =>
   const src = source?.[prefix + "Src"] || "";
   return [kind, svgId, src].join("|");
 };
+  const buildPanZoomRuntimeSrcSet = function buildPanZoomRuntimeSrcSet(renditions) {
+  return (Array.isArray(renditions) ? renditions : [])
+    .filter((candidate) => candidate?.url && Number(candidate.width) > 0)
+    .sort((left, right) => Number(left.width) - Number(right.width))
+    .map((candidate) => `${candidate.url} ${Number(candidate.width)}w`)
+    .join(", ");
+};
+  const mediaUrlsMatch = function mediaUrlsMatch(image, left, right) {
+  if (!left || !right) return false;
+  const baseUrl = image?.ownerDocument?.baseURI;
+  try {
+    return new URL(left, baseUrl).href === new URL(right, baseUrl).href;
+  } catch {
+    return left === right;
+  }
+};
   const setAdaptiveImageSource = function setAdaptiveImageSource(
   image,
   sourceElement,
@@ -935,7 +965,9 @@ const visualFrameSizes = (value) =>
   const activeUrl = sourceElement
     ? sourceElement.getAttribute("srcset")
     : image.getAttribute("src");
-  if (activeUrl === url) {
+  const currentUrl = image.currentSrc || image.getAttribute("src");
+  if (activeUrl === url || mediaUrlsMatch(image, currentUrl, url)) {
+    image.dataset.adaptiveSrc = url;
     onApplied?.();
     return;
   }
@@ -1001,22 +1033,32 @@ const visualFrameSizes = (value) =>
   const state = getAdaptiveImageState(image);
   const frameWindow = image.ownerDocument?.defaultView;
   const bounds = media?.getBoundingClientRect?.();
-  const viewportLongEdge = Math.max(
-    Number(bounds?.width) || Number(frameWindow?.innerWidth) || 1280,
-    Number(bounds?.height) || Number(frameWindow?.innerHeight) || 720
-  );
+  const viewportWidth =
+    Number(bounds?.width) || Number(frameWindow?.innerWidth) || 1280;
   const devicePixelRatio = Math.min(
     MAX_IMAGE_DEVICE_PIXEL_RATIO,
     Math.max(1, Number(frameWindow?.devicePixelRatio) || 1)
   );
   const zoom = Math.max(1, Number(camera?.zoom) || 1);
-  const requiredLongEdge = settled
-    ? Math.max(
-        MIN_CHECKPOINT_IMAGE_LONG_EDGE,
-        Math.ceil(viewportLongEdge * devicePixelRatio * zoom)
-      )
+  const requiredSize = settled
+    ? Math.ceil(viewportWidth * devicePixelRatio * zoom)
     : MOTION_IMAGE_LONG_EDGE;
-  const url = selectImageRendition(renditions, requiredLongEdge, fallbackSrc);
+  const url = selectImageRendition(
+    renditions,
+    requiredSize,
+    fallbackSrc,
+    settled ? "width" : "longEdge"
+  );
+  const currentUrl = image.currentSrc || image.getAttribute?.("src");
+  if (mediaUrlsMatch(image, currentUrl, url)) {
+    if (state.timer && frameWindow) frameWindow.clearTimeout?.(state.timer);
+    state.timer = null;
+    state.pendingUrl = null;
+    state.onApplied = null;
+    image.dataset.adaptiveSrc = url;
+    onApplied?.();
+    return;
+  }
   if (settled && state.timer && state.pendingUrl === url) {
     if (onApplied) state.onApplied = onApplied;
     return;
@@ -1072,7 +1114,11 @@ const visualFrameSizes = (value) =>
   }
   syncAdaptiveImageRendition({
     image,
-    sourceElement: useMobile ? mobileSource : null,
+    sourceElement: useMobile
+      ? mobileSource
+      : image?.getAttribute?.("srcset")
+        ? image
+        : null,
     renditions: useMobile
       ? source.mobileRenditions
       : source.desktopRenditions,
@@ -1452,7 +1498,7 @@ const visualFrameSizes = (value) =>
     const desktopSvg = layer.querySelector("[data-pan-zoom-svg-desktop]");
     const mobileSvg = layer.querySelector("[data-pan-zoom-svg-mobile]");
     const empty = layer.querySelector("[data-pan-zoom-empty]");
-    const sizes = visualFrameSizes(source.visualFrame);
+    const sizes = visualFrameSizes(source.visualFrame, camera?.zoom);
     desktop?.setAttribute?.("sizes", sizes);
     mobile?.setAttribute?.("sizes", sizes);
     const hasDesktopVideo =
@@ -1489,22 +1535,35 @@ const visualFrameSizes = (value) =>
     if (empty) empty.hidden = hasSelectedRaster || hasSelectedVideo || hasSelectedSvg;
     if (desktop) {
       if (hasDesktop) {
+        const desktopSrcSet = buildPanZoomRuntimeSrcSet(
+          source.desktopRenditions
+        );
         if (
           (previousSource && rasterSourceChanged) ||
           !desktop.getAttribute?.("src")
         ) {
           desktop.setAttribute("src", source.desktopSrc);
         }
+        if (
+          desktopSrcSet &&
+          ((previousSource && rasterSourceChanged) ||
+            !desktop.getAttribute?.("srcset"))
+        ) {
+          desktop.setAttribute("srcset", desktopSrcSet);
+        }
       } else desktop.removeAttribute("src");
       desktop.setAttribute("alt", source.alt ?? "");
     }
     if (mobile) {
       if (source.mobileSrc && source.mobileKind !== "video") {
+        const mobileSrcSet = buildPanZoomRuntimeSrcSet(
+          source.mobileRenditions
+        );
         if (
           (previousSource && rasterSourceChanged) ||
           !mobile.getAttribute?.("srcset")
         ) {
-          mobile.setAttribute("srcset", source.mobileSrc);
+          mobile.setAttribute("srcset", mobileSrcSet || source.mobileSrc);
         }
       } else {
         mobile.removeAttribute("srcset");
@@ -1549,7 +1608,11 @@ const visualFrameSizes = (value) =>
       if (automaticCameraChange) {
         syncAdaptiveImageRendition({
           image: desktop,
-          sourceElement: useMobile ? mobile : null,
+          sourceElement: useMobile
+            ? mobile
+            : desktop?.getAttribute?.("srcset")
+              ? desktop
+              : null,
           renditions: useMobile
             ? source.mobileRenditions
             : source.desktopRenditions,
@@ -1561,7 +1624,11 @@ const visualFrameSizes = (value) =>
       }
       syncAdaptiveImageRendition({
         image: desktop,
-        sourceElement: useMobile ? mobile : null,
+        sourceElement: useMobile
+          ? mobile
+          : desktop?.getAttribute?.("srcset")
+            ? desktop
+            : null,
         renditions: useMobile
           ? source.mobileRenditions
           : source.desktopRenditions,
@@ -1574,7 +1641,11 @@ const visualFrameSizes = (value) =>
     } else if (hasDesktop && rasterSourceChanged) {
       syncAdaptiveImageRendition({
         image: desktop,
-        sourceElement: useMobile ? mobile : null,
+        sourceElement: useMobile
+          ? mobile
+          : desktop?.getAttribute?.("srcset")
+            ? desktop
+            : null,
         renditions: useMobile
           ? source.mobileRenditions
           : source.desktopRenditions,
