@@ -915,6 +915,14 @@ const visualFrameSizes = (value) =>
   }
   return media.__adaptiveImageState;
 };
+  const getPanZoomVisualSourceKey = function getPanZoomVisualSourceKey(source, mobile) {
+  const useMobile = Boolean(mobile && source?.mobileSrc);
+  const prefix = useMobile ? "mobile" : "desktop";
+  const kind = source?.[prefix + "Kind"] || "";
+  const svgId = source?.[prefix + "SvgId"] || "";
+  const src = source?.[prefix + "Src"] || "";
+  return [kind, svgId, src].join("|");
+};
   const setAdaptiveImageSource = function setAdaptiveImageSource(
   image,
   sourceElement,
@@ -1481,7 +1489,10 @@ const visualFrameSizes = (value) =>
     if (empty) empty.hidden = hasSelectedRaster || hasSelectedVideo || hasSelectedSvg;
     if (desktop) {
       if (hasDesktop) {
-        if (rasterSourceChanged || !desktop.getAttribute?.("src")) {
+        if (
+          (previousSource && rasterSourceChanged) ||
+          !desktop.getAttribute?.("src")
+        ) {
           desktop.setAttribute("src", source.desktopSrc);
         }
       } else desktop.removeAttribute("src");
@@ -1489,7 +1500,10 @@ const visualFrameSizes = (value) =>
     }
     if (mobile) {
       if (source.mobileSrc && source.mobileKind !== "video") {
-        if (rasterSourceChanged || !mobile.getAttribute?.("srcset")) {
+        if (
+          (previousSource && rasterSourceChanged) ||
+          !mobile.getAttribute?.("srcset")
+        ) {
           mobile.setAttribute("srcset", source.mobileSrc);
         }
       } else {
@@ -2993,10 +3007,15 @@ const visualFrameSizes = (value) =>
           alt: step.dataset.mediaAlt || ""
         };
       });
-      preloadNearbyPanZoomSource(
-        mediaSources[Math.min(mediaSources.length - 1, state.activeIndex + 1)],
-        useMobileCamera
-      );
+      const activeMediaSource = mediaSources[state.activeIndex];
+      const nearbyMediaSource =
+        mediaSources[Math.min(mediaSources.length - 1, state.activeIndex + 1)];
+      if (
+        getPanZoomVisualSourceKey(activeMediaSource, useMobileCamera) !==
+        getPanZoomVisualSourceKey(nearbyMediaSource, useMobileCamera)
+      ) {
+        preloadNearbyPanZoomSource(nearbyMediaSource, useMobileCamera);
+      }
       const automatic =
         state.scrollState.transitionTiming !== "scroll-linked";
       const previousIndex = Number(section.dataset.runtimeActiveStepIndex);
